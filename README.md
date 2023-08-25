@@ -1,50 +1,46 @@
-# Django-Vue Store Backend
+# DjangoBack - Backend para Tienda en Línea
 
-Django-Vue Store is an online store management system that allows you to manage products, perform login operations and leverage the capabilities of a backend developed in Python using the Django framework. Together with the frontend developed in Vue (JavaScript) and an elegant design in Tailwind CSS, this project provides a complete solution for creating and managing an online store.
+DjangoBack es un sistema de gestión para tiendas en línea que te permite administrar productos, realizar operaciones de inicio de sesión y aprovechar las capacidades de un backend desarrollado en Python utilizando el framework Django. Con un diseño elegante en Tailwind CSS, este proyecto proporciona una solución completa para crear y administrar una tienda en línea.
 
-## Project description
+## Descripción del Proyecto
 
-Django-Vue Store is an e-commerce application that allows you to perform the following actions:
+DjangoBack es una aplicación de comercio electrónico que te permite realizar las siguientes acciones:
 
-- **Product management**: Create, update and delete products in your inventory. Each product can include details such as name, description, price and category.
+- **Gestión de productos**: Crea, actualiza y elimina productos en tu inventario. Cada producto puede incluir detalles como nombre, descripción, precio y categoría.
 
-- **Login and security**: Provides a secure authentication system that allows users to register, login and manage their accounts. This ensures that only authorized users can access administration functions.
+- **Inicio de sesión y seguridad**: Proporciona un sistema de autenticación seguro que permite a los usuarios registrarse, iniciar sesión y gestionar sus cuentas. Esto asegura que solo los usuarios autorizados puedan acceder a las funciones de administración.
 
-- **Attractive and dynamic frontend**: The frontend developed in Vue.js offers a smooth and engaging user experience. Products are presented in an intuitive way, and users can perform actions such as adding products to cart and shopping efficiently.
+- **Backend atractivo y dinámico**: El backend desarrollado en Django ofrece una experiencia de usuario fluida y atractiva. Los productos se presentan de manera intuitiva y los usuarios pueden realizar acciones como agregar productos al carrito y comprar de manera eficiente.
 
-- **Modern design**: The interface design is based on Tailwind CSS, which provides a modern and responsive look and feel. This ensures that the application looks and works optimally on different devices and screen sizes.
+- **Diseño moderno**: El diseño de la interfaz se basa en Tailwind CSS, lo que proporciona un aspecto moderno y receptivo. Esto asegura que la aplicación luzca y funcione de manera óptima en diferentes dispositivos y tamaños de pantalla.
 
-- **Efficient database**: Using SQLite3, the project efficiently stores product information, user accounts and other entities relevant to the operation of the online store.
+- **Base de datos eficiente**: Utilizando SQLite3, el proyecto almacena eficientemente la información de los productos, las cuentas de usuario y otras entidades relevantes para el funcionamiento de la tienda en línea.
 
-This project is ideal for those looking for an out-of-the-box solution to create their own online store. Whether you are a developer looking to learn about web application development with Django and Vue, or an entrepreneur looking to launch your online store, TiendaVBack provides you with a solid foundation to build upon.
+Este proyecto es ideal para aquellos que buscan una solución lista para usar para crear su propia tienda en línea. Ya seas un desarrollador que busca aprender sobre el desarrollo de aplicaciones web con Django y Python, o un emprendedor que busca lanzar su tienda en línea, DjangoBack te proporciona una base sólida sobre la cual construir.
 
-## Technologies
+## Tecnologías
 
-The project is developed using the following technologies:
+El proyecto está desarrollado utilizando las siguientes tecnologías:
 
-- **Django**: Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It is a free and open-source framework, released under the BSD license.
+- **Django**: Django es un framework web de alto nivel para Python que fomenta el desarrollo rápido y un diseño limpio y pragmático. Es un framework de código abierto y gratuito, lanzado bajo la licencia BSD.
 
-- **Vue.js**: Vue.js is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications.
+- **SQLite3**: SQLite es un sistema de gestión de bases de datos relacionales contenido en una biblioteca C. A diferencia de muchos otros sistemas de gestión de bases de datos, SQLite no es un motor de base de datos cliente-servidor. En cambio, está incrustado en el programa final.
 
-- **Tailwind CSS**: Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces.
+## Requisitos
 
-- **SQLite3**: SQLite is a relational database management system contained in a C library. In contrast to many other database management systems, SQLite is not a client–server database engine. Rather, it is embedded into the end program.
-
-## Requirements
-
-Before you start using this project, make sure you have Python and Django installed. If you don't have them yet, you can download them from the following links:
+Antes de comenzar a usar este proyecto, asegúrate de tener instalados Python y Django. Si aún no los tienes, puedes descargarlos desde los siguientes enlaces:
 
 - [Python](https://www.python.org/downloads/)
 - [Django](https://www.djangoproject.com/download/)
 
-## Installation
+## Instalación
 
-Follow these steps to install the project in your local environment:
+Sigue estos pasos para instalar el proyecto en tu entorno local:
 
-1. Clone the repository to your local machine:
+1. Clona el repositorio en tu máquina local:
 
 ```bash
-git clone https://github.com/KevinRo29/Django-Vue-Store
+git clone https://github.com/KevinRo29/DjangoBack.git
 ```
 
 2. Install the project dependencies:
