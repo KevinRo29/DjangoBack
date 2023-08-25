@@ -1,43 +1,41 @@
-# DjangoBack - Backend para Tienda en Línea
+# DjangoBack
 
-DjangoBack es un sistema de gestión para tiendas en línea que te permite administrar productos, realizar operaciones de inicio de sesión y aprovechar las capacidades de un backend desarrollado en Python utilizando el framework Django. Con un diseño elegante en Tailwind CSS, este proyecto proporciona una solución completa para crear y administrar una tienda en línea.
+DjangoBack - API is a management system for online stores that allows you to manage products, perform login operations and take advantage of the capabilities of a backend developed in Python using the Django framework.
 
-## Descripción del Proyecto
+## Project Description
 
-DjangoBack es una aplicación de comercio electrónico que te permite realizar las siguientes acciones:
+DjangoBack is an application that allows you to perform the following actions:
 
-- **Gestión de productos**: Crea, actualiza y elimina productos en tu inventario. Cada producto puede incluir detalles como nombre, descripción, precio y categoría.
+- **Product management**: Create, update and delete products in your inventory. Each product can include details such as name, description, price and category.
 
-- **Inicio de sesión y seguridad**: Proporciona un sistema de autenticación seguro que permite a los usuarios registrarse, iniciar sesión y gestionar sus cuentas. Esto asegura que solo los usuarios autorizados puedan acceder a las funciones de administración.
+- Login and security**: Provides a secure authentication system that allows users to register, login and manage their accounts. This ensures that only authorized users can access the administration functions.
 
-- **Backend atractivo y dinámico**: El backend desarrollado en Django ofrece una experiencia de usuario fluida y atractiva. Los productos se presentan de manera intuitiva y los usuarios pueden realizar acciones como agregar productos al carrito y comprar de manera eficiente.
+- Dynamic backend**: The backend developed in Django provides a smooth and engaging user experience. Products are presented intuitively and users can perform various actions quickly and easily.
 
-- **Diseño moderno**: El diseño de la interfaz se basa en Tailwind CSS, lo que proporciona un aspecto moderno y receptivo. Esto asegura que la aplicación luzca y funcione de manera óptima en diferentes dispositivos y tamaños de pantalla.
+- Efficient database**: Using SQLite3, the project efficiently stores product information, user accounts and other entities relevant to the operation of the online store.
 
-- **Base de datos eficiente**: Utilizando SQLite3, el proyecto almacena eficientemente la información de los productos, las cuentas de usuario y otras entidades relevantes para el funcionamiento de la tienda en línea.
+This project is ideal for those looking for an out-of-the-box solution to create their own online store. Whether you are a developer looking to learn about web application development with Django and Python, or an entrepreneur looking to launch your online store, DjangoBack gives you a solid foundation to build on.
 
-Este proyecto es ideal para aquellos que buscan una solución lista para usar para crear su propia tienda en línea. Ya seas un desarrollador que busca aprender sobre el desarrollo de aplicaciones web con Django y Python, o un emprendedor que busca lanzar su tienda en línea, DjangoBack te proporciona una base sólida sobre la cual construir.
+## Technologies
 
-## Tecnologías
+The project is developed using the following technologies:
 
-El proyecto está desarrollado utilizando las siguientes tecnologías:
+- **Django**: Django is a high-level web framework for Python that encourages rapid development and clean, pragmatic design. It is a free and open source framework, released under the BSD license.
 
-- **Django**: Django es un framework web de alto nivel para Python que fomenta el desarrollo rápido y un diseño limpio y pragmático. Es un framework de código abierto y gratuito, lanzado bajo la licencia BSD.
+- SQLite3**: SQLite is a relational database management system contained in a C library. Unlike many other database management systems, SQLite is not a client-server database engine. Instead, it is embedded in the final program.
 
-- **SQLite3**: SQLite es un sistema de gestión de bases de datos relacionales contenido en una biblioteca C. A diferencia de muchos otros sistemas de gestión de bases de datos, SQLite no es un motor de base de datos cliente-servidor. En cambio, está incrustado en el programa final.
+## Requirements
 
-## Requisitos
-
-Antes de comenzar a usar este proyecto, asegúrate de tener instalados Python y Django. Si aún no los tienes, puedes descargarlos desde los siguientes enlaces:
+Before you start using this project, make sure you have Python and Django installed. If you don't already have them, you can download them from the following links:
 
 - [Python](https://www.python.org/downloads/)
 - [Django](https://www.djangoproject.com/download/)
 
-## Instalación
+## Installation
 
-Sigue estos pasos para instalar el proyecto en tu entorno local:
+Follow these steps to install the project in your local environment:
 
-1. Clona el repositorio en tu máquina local:
+1. Clone the repository on your local machine:
 
 ```bash
 git clone https://github.com/KevinRo29/DjangoBack.git
@@ -81,13 +79,13 @@ python manage.py runserver
 
 If you want to customize or expand the functionality of the application, you can:
 
-1. Add new features to the frontend using Vue.js.
+1. Add news characteristics to the Backend using Django and Python.
 
-2. Modify and improve the business logic on the backend using Django and Python.
+2. Modify and improve the business logic in the backend.
 
 3. Improve security through two-factor authentication.
 
-4. Implement a ratings and reviews system for products.
+4. Implementar un sistema de calificaciones y reseñas para los productos
 
 Feel free to explore and experiment with the code to adapt it to your specific needs!
 
