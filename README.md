@@ -65,6 +65,33 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
+## Notes
+
+- To see the admin panel, go to the following URL: http://127.0.0.1:8000/admin/login/?next=/admin/
+
+- When a user is created, it is stored as a non-active record, therefore, to change a user to active, do the following:
+
+1. In the terminar run the following command:
+
+```bash
+python manage.py shell
+```
+
+2. Once in the shell, run the following commands:
+
+```bash
+from Apps.Authenticate.models import UserAccount
+user = UserAccount.objects.get(email='your-email')
+user.is_active = True
+user.save()
+```
+
+3. Exit the shell
+    
+```bash
+exit()
+```
+
 ## Usage
 
 ### Main functionalities
