@@ -8,11 +8,11 @@ DjangoBack is an application that allows you to perform the following actions:
 
 - **Product management**: Create, update and delete products in your inventory. Each product can include details such as name, description, price and category.
 
-- Login and security**: Provides a secure authentication system that allows users to register, login and manage their accounts. This ensures that only authorized users can access the administration functions.
+- **Login and security**: Provides a secure authentication system that allows users to register, login and manage their accounts. This ensures that only authorized users can access the administration functions.
 
-- Dynamic backend**: The backend developed in Django provides a smooth and engaging user experience. Products are presented intuitively and users can perform various actions quickly and easily.
+- **Dynamic backend**: The backend developed in Django provides a smooth and engaging user experience. Products are presented intuitively and users can perform various actions quickly and easily.
 
-- Efficient database**: Using SQLite3, the project efficiently stores product information, user accounts and other entities relevant to the operation of the online store.
+- **Efficient database**: Using SQLite3, the project efficiently stores product information, user accounts and other entities relevant to the operation of the online store.
 
 This project is ideal for those looking for an out-of-the-box solution to create their own online store. Whether you are a developer looking to learn about web application development with Django and Python, or an entrepreneur looking to launch your online store, DjangoBack gives you a solid foundation to build on.
 
@@ -22,7 +22,7 @@ The project is developed using the following technologies:
 
 - **Django**: Django is a high-level web framework for Python that encourages rapid development and clean, pragmatic design. It is a free and open source framework, released under the BSD license.
 
-- SQLite3**: SQLite is a relational database management system contained in a C library. Unlike many other database management systems, SQLite is not a client-server database engine. Instead, it is embedded in the final program.
+- **SQLite3**: SQLite is a relational database management system contained in a C library. Unlike many other database management systems, SQLite is not a client-server database engine. Instead, it is embedded in the final program.
 
 ## Requirements
 
